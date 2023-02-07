@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>TRIOZ Quiz App </title>
+</head>
+<style>
+    body {
+        background-image: url("1675778095867.jpg");
+    }
+</style>
+
+<body style="overflow: hidden; ">
+    <div class="start_btn  animate__animated animate__backInRight"><button>Start Your Quiz </button></div>
+
+    <div class="info_box ">
+        <div class="info-title"><span>Rules For Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will get <span>10 seconds</span> for each question.</div>
+            <div class="info">2. Selected answers can't be undone.</div>
+            <div class="info">3. Select options before time gets up.</div>
+            <div class="info">4. Once you start quiz, you can't quit.</div>
+            <div class="info">5. You'll get results at the end of the quiz.</div>
+            <div class="info">6. After time-up, correct ans will be displayed but you won't get point.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box ">
+        <header>
+            <div class="title">छत्रपती शिवाजी महाराज यांच्याविषयी काही प्रश्न.</div>
+
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box">
+        <div class="icon">
+            <img src="win.png" alt="image" height="205px" width="201px">
+
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
